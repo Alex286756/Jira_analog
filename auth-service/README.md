@@ -13,6 +13,14 @@ graph TD;
     Analytics Service --> Elasticsearch;  
 ``` 
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 Что делает:
 
 Микросервисная архитектура (Spring Boot + Spring Cloud)
