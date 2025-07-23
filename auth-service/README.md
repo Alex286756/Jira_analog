@@ -2,15 +2,15 @@
 Распределенный трекер задач (аналог Jira)
 ```mermaid  
 graph TD;  
-    API Gateway --> Auth Service;  
-    API Gateway --> Task Service;  
-    API Gateway --> Notification Service;  
-    Auth Service --> Keycloak;  
-    Task Service --> PostgreSQL;  
-    Task Service --> Kafka;  
-    Notification Service --> Redis;  
-    Task Service --> Analytics Service;  
-    Analytics Service --> Elasticsearch;  
+    API Gateway-->Auth Service;  
+    API Gateway-->Task Service;  
+    API Gateway-->Notification Service;  
+    Auth Service-->Keycloak;  
+    Task Service-->PostgreSQL;  
+    Task Service-->Kafka;  
+    Notification Service-->Redis;  
+    Task Service-->Analytics Service;  
+    Analytics Service-->Elasticsearch;  
 ``` 
 
 ```mermaid
